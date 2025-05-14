@@ -6,7 +6,7 @@ import json
 from openai import OpenAI
 
 # 👉 Inserisci la tua API Key OpenAI
-client = OpenAI(api_key="INSERISCI_LA_TUA_API_KEY")
+client = OpenAI(api_key="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")
 
 # 📚 Aree tematiche
 AREE = {
