@@ -4,7 +4,7 @@ import os
 from openai import OpenAI
 
 # ✅ Inizializza il client OpenAI leggendo la chiave dai secrets
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("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"))
 
 # ✅ Mappa delle aree OCF
 AREE = {
